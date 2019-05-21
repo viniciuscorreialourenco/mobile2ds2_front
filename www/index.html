@@ -6,7 +6,7 @@
            <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
 
            <script src="components/loader.js"></script>
-           <script src="components/jquery-3.3.1.min.js"></script>
+           <script src="components/jquery-3.4.1.min.js"></script>
            <script src="components/acao.js"></script>
                
            <link rel="stylesheet" href="components/loader.css">
@@ -14,20 +14,27 @@
            <link rel="stylesheet" href="css/style.css">   
      </head>
      <body>
-          <div class="container">
-               <div class="titulo">
-                    <div class="row">
-                         <div class="col-xs-12"> 
-                               <h1>formulario usuario</h1>
-                         </div>
+          <div class="titulo">
+               <div class="row">
+                    <div class="col-xs-12"> 
+                          <h1>formulario usuario</h1>
+                     </div>
+                </div>
+          </div>
+          <div class="container">              
+               <div class="row linha">
+                    <div class="col-xs-12">
+                         <label>nome</label>
+                         <input type="text" class="form-control" id="nome">
                     </div>
                </div>
-               <div class="row">
+               <div class="row linha">
                     <div class="col-xs-12">
                          <label>e-mail</label>
-                         <input type="text" class="form-control">
+                         <input type="text" class="form-control" id="email">
                     </div>
                </div>
+               <button class="btn btn-block" id="cadastrar">enviar</button>
           </div>
      </body>
 </html>

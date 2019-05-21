@@ -1,2 +1,18 @@
 /**/
-
+.btn{
+     margin-top: 15px;
+     background-color: rgb(100, 62, 236);
+     color: white;
+}
+body{
+     background-color: rgb(167, 181, 243);
+}
+.titulo{
+     background-color: rgb(68, 0, 255);
+     color: white;
+     text-align: center;
+     font-family: cursive;
+}
+.linha{
+     margin-top: 15px;
+}
